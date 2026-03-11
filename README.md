@@ -34,7 +34,7 @@ The dataset consists of **Amazon product reviews** used to determine sentiment p
 
 ### Training Dataset
 
-- **File:** `train.dat`
+- **File:** `traindata.txt`
 - **Total reviews:** 18,506
 - **Format:**
 
@@ -55,7 +55,7 @@ Where:
 
 ### Test Dataset
 
-- **File:** `test.dat`
+- **File:** `testdata.txt`
 - **Total reviews:** 18,506
 - Contains **review text only** (no sentiment labels)
 
@@ -162,7 +162,7 @@ The model outputs sentiment predictions for each test review.
 
 Example:
 
-Each line corresponds to the predicted sentiment of a review in `test.dat`.
+Each line corresponds to the predicted sentiment of a review in `testdata,txt`.
 
 ---
 
