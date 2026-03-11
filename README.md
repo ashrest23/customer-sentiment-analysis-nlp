@@ -162,7 +162,7 @@ The model outputs sentiment predictions for each test review.
 
 Example:
 
-Each line corresponds to the predicted sentiment of a review in `testdata,txt`.
+Each line corresponds to the predicted sentiment of a review in `testdata.txt`.
 
 ---
 
