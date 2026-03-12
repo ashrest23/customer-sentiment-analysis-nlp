@@ -23,14 +23,14 @@ The main objectives of this project are:
 - Process and analyze **text-based review data**
 - Engineer meaningful **features from raw text**
 - Experiment with different **similarity functions and parameters**
-- Select the **best performing model configuration**
+- Select the **best performing model configuration using cross validation**
 - Predict sentiment for unseen review data
 
 ---
 
 ## Dataset
 
-The dataset consists of **Amazon product reviews** used to determine sentiment polarity.
+The dataset consists of **Customer product reviews** used to determine sentiment polarity.
 
 ### Training Dataset
 
@@ -42,8 +42,8 @@ Each row contains:
 <sentiment_label> <review_text>
 
 Example:
-+1 This product works perfectly and exceeded my expectations
--1 The quality was terrible and it broke within two days
+- +1 This product works perfectly and exceeded my expectations
+- -1 The quality was terrible and it broke within two days
 
 
 Where:
