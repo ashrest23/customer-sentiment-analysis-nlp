@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 12 12:16:50 2026
-
-@author: anish
-"""
-
 """
 Customer Sentiment Analysis using TF-IDF + Custom KNN
 
